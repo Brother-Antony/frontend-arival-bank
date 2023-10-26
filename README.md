@@ -34,7 +34,7 @@ One of the most exciting parts of the project was learning to integrate technolo
 I am open to contributions and collaborations. If you'd like to contribute, please open a pull request. This project is distributed under the MIT License.
 
 ## Contact
-If you wish to contact me, you can do so via my email: [youremail@example.com].
+If you wish to contact me, you can do so via my email: [elmer.antony12@gmail.com].
 
 ## Acknowledgments
 I want to express my gratitude to the community and online resources that helped me overcome challenges and complete this project.
