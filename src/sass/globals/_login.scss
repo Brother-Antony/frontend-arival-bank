@@ -1,0 +1,63 @@
+@use "../util" as u;
+
+.login {
+    padding: 80px 0 193px;
+    margin: auto 0;
+
+    &__content {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    &__stepper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        flex-wrap: wrap;
+        top: 7.5rem;
+    }
+
+    &__form {
+        margin-top: 60px;
+        width: 100%;
+        background-color: var(--text);
+        padding: 40px 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        &--box {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            input,
+            select {
+                width: 100%;
+            }
+        }
+    }
+
+    @include u.responsive(900px) {
+        &__stepper {
+            top: -1.5rem;
+        }
+    }
+
+    @include u.breakpoint-down(medium) {
+        padding: 0 0 163px;
+        margin: initial;
+
+        &__stepper {
+            position: initial;
+            margin: 0 -24px 40px;
+            background-color: var(--white);
+            padding: 12px;
+            flex-direction: initial;
+            justify-content: center;
+        }
+    }
+}

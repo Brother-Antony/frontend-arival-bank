@@ -1,27 +1,42 @@
-# React + TypeScript + Vite
+# **Technical Test Project - FrontEnd**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project represents my technical test for the Frontend Developer position. The application is built with key technologies, including React, TypeScript, Sass, Tailwind CSS, and Axios. It also uses universal-cookie to manage the application's cookies. The application allows users to enter initial information, validate it, and review it before progressing to the next step. Additionally, it integrates with an external API to retrieve country data.
 
-Currently, two official plugins are available:
+## Usage Instructions
+To run this application on your local machine, follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone this repository.
+2. Install dependencies using `npm install`.
+3. Start the application with `npm start`.
 
-## Expanding the ESLint configuration
+## Folder Structure
+The project follows an organized folder structure to facilitate code navigation.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
+- React: JavaScript library for building user interfaces.
+- TypeScript: JavaScript extension that enables static typing.
+- Sass: Styling language.
+- Tailwind CSS: Utility-first CSS framework.
+- Axios: HTTP client for making API requests.
+- universal-cookie: Library for handling browser cookies.
 
-- Configure the top-level `parserOptions` property like this:
+## Development Process
+During development, I faced challenges in user data validation. I opted to use custom validation libraries to ensure a smooth user experience and meet the test requirements. The logic to consume data from the external API was also implemented.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Open Issues
+Currently, there are no known open issues. If you encounter any problems or wish to collaborate, please feel free to open an issue report.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Learning and Development
+One of the most exciting parts of the project was learning to integrate technologies and libraries to create an intuitive user experience. I learned how to use TypeScript for safer code and manage cookies in a React application.
+
+## Contributions and License
+I am open to contributions and collaborations. If you'd like to contribute, please open a pull request. This project is distributed under the MIT License.
+
+## Contact
+If you wish to contact me, you can do so via my email: [youremail@example.com].
+
+## Acknowledgments
+I want to express my gratitude to the community and online resources that helped me overcome challenges and complete this project.
+
+Thank you for reviewing my work! 😊
